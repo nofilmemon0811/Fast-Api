@@ -17,4 +17,4 @@ COPY . .
 
 
 # Command to run the application using the FastAPI CLI
-CMD ["fastapi", "run", "app.py", "--port", "7680"]
+CMD ["fastapi", "run", "app.py","--host","0.0.0.0", "--port", "7680"]
